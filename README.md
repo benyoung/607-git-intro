@@ -21,7 +21,6 @@ Clone this repository using "git clone".  Then pretend it's a paper you're writi
 6. The journal refuses to publish the appendix of your paper because it's too long.  Delete the appendix from the journal version only.
 
 7. Your colleague points out that 51 is not a prime number, and perhaps another couple of subtle errors.   Update both versions of your paper.
-8. You find some more errors.  Change them in all versions of the document.
 
 
 

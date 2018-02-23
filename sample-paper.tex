@@ -1,0 +1,25 @@
+\documentclass[12pt]{amsart}
+
+\usepackage{graphicx}
+\newtheorem{theorem}{Theorem}
+
+\begin{document}
+
+\title{There are infinitely many primes}
+\author{Ben Young}
+\maketitle
+
+
+It has been well known since Euclid's time that there are infinitely many prime numbers.  I think there may be several problems with the following proof, though:
+
+\begin{theorem}
+There are infinitely many prime numbers.
+\end{theorem}
+
+\begin{proof}
+Suppose otherwise, then the set of all prime numbers is $\{p_1, p_2, \ldots, p_k\}$ for some integer $k$.  Let \[P = 1+\prod_{i=1}^{k} p_i.\]P is not divisible by any of the primes $p_1, \ldots, p_k$.  Moreover, since there do exist prime numbers (51, for instance), $P$ is not equal to 1.  Therefore $P$ itself is prime.  However, $P$ is also larger than all of the primes $p_i$, so P is not in the set of all prime numbers - a contradiction.
+\end{proof}
+
+
+
+\end{document}
